@@ -32,12 +32,12 @@ Resolveremos varias tareas con la ayuda de machine learning para la compañía d
   - Tenemos un Dataframe de  4847 filas y 5 columnas
    - No existian valores nulos y eliminamos valores duplicados
    - Observamos que la mayor catidad de ingresos esta entre 40,000 y 50,000
-- **Tarea 1. Clientes similares**
+### Tarea 1. Clientes similares**
   - Desarrollamos un procedimiento que devolviera los k vecinos más cercanos, con datos escaldos y no escalados y luego igual para diferentes métricas de distancia(euclidiana, manhatan)
   - Concluimos que los datos al no estar escalados la distancia es mucho mayor y como mejor métrica para nuestro caso obtuvimos la distancia euclidiana sin importar si estuvieron escalados o sin escalar!
-- **Tarea 2. ¿Es probable que el cliente reciba una prestación del seguro?**
+### Tarea 2. ¿Es probable que el cliente reciba una prestación del seguro?**
    - Creamos un modelo dummy y lo probamos con 4 valores de probabilidad:
    - Basado en las matrices de confusión y F1 scores, el umbral de probabilidad 0.50 parece ser el mejor. Proporciona un balance razonable entre verdaderos positivos y falsos negativos, y un F1 score de 0.19, que es el segundo más alto.
-- **Tarea 3. Regresión lineal**
+### Tarea 3. Regresión lineal**
   -
     
