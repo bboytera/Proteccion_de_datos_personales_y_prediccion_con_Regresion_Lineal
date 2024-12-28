@@ -14,7 +14,7 @@ Resolveremos varias tareas con la ayuda de machine learning para la compañía d
 **Tarea 4:** 
 - Proteger los datos personales de los clientes sin afectar al modelo. Es necesario desarrollar un algoritmo de transformación de datos que dificulte la recuperación de la información personal si los datos llegaran a caer en manos equivocadas. Esto se denomina **enmascaramiento u ofuscación de datos**. Pero los datos deben protegerse de tal manera que no se vea afectada la calidad de los modelos de machine learning.
 # Descripción de los datos
-- **Características:** `sexo`, `edad`, `salario` y `número de familiares` de la persona asegurada.
+- **Características:** `genero`, `edad`, `salario` y `número de familiares` de la persona asegurada.
 - **Objetivo:** `número de beneficios de seguro` recibidos por una persona asegurada en los últimos cinco años.
 # Habilidades técnicas
 - Phyton (creación de clases para modelos de machine learning)
