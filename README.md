@@ -39,5 +39,19 @@ Resolveremos varias tareas con la ayuda de machine learning para la compañía d
    - Creamos un modelo dummy y lo probamos con 4 valores de probabilidad:
    - Basado en las matrices de confusión y F1 scores, el umbral de probabilidad 0.50 parece ser el mejor. Proporciona un balance razonable entre verdaderos positivos y falsos negativos, y un F1 score de 0.19, que es el segundo más alto.
 ### Tarea 3. Regresión lineal
-  -
+En nuestro modelo de Regresión lineal obtuvimos un:
+- RMSE: 0.36
+- R2_score:0.66
+LO que quiere decir que nuestro modelo es muy preciso **(RMSE)** estan a una distancia de 0.36 unidades entre más cercano al 0 es mejor
+y un R2_score de 0.66 significa que el 66% de la variabilidad en los datos de salida puede ser explicada por el modelo. Esto es un indicador de que el modelo tiene una capacidad predictiva moderada. Aqui en este últimop entre más cercano a 1 es mejor!
+### Tarea 4. Ofuscar Datos
+Realizamos la ofuscación de datos logrando enmascararlos sin afectar la calidad de nuestro modelo.
+Usamos una **transformación lineal**(Este enfoque utiliza una matriz invertible para transformar los datos originales, logrando que los datos resultantes sean una versión ofuscada de los originales.)
+**Conclusión final**
+No hay ninguna diferencia en las predicciones ni en las metricas con los datos ofuscados y sin ofuscar, los valores son los mismos. La ofuscación de los datos utilizando una matriz invertible  𝑃
+  no afecta la calidad del modelo de regresión lineal en términos de los valores predichos ni en términos del error cuadrático medio (RMSE). Esto significa que podemos aplicar ofuscación a los datos para proteger la privacidad sin comprometer la precisión de las predicciones ni la evaluación de la calidad del modelo!!!
+
+​
+
+
     
